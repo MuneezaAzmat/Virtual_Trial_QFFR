@@ -1,0 +1,24 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by ANSYS Workbench.
+# Project name: P2
+# Creation date: 05/01/2020 15:13:26
+# 
+# 05/01/2020 15:13:26
+# The parameters defined in the project are:
+# ,P1 - Pa-6cm [Pa],P2 - Pd_8cm [Pa],P3 - Q-4cm [m^3 s^-1],P4 - Area-4cm [m^2],P5 - Mdot-4cm [kg s^-1],P6 - Pa-6cm [Pa],P7 - Pd-8cm [Pa],P8 - Area-4cm [m^2],P9 - Q-4cm [m^3 s^-1],P10 - Mdot-4cm [kg s^-1],P11 - Pa-6cm [Pa],P12 - Pd-8cm [Pa],P13 - Q-4cm [m^3 s^-1],P14 - Area-4cm [m^2],P15 - Mdot-4cm [kg s^-1]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15
+DP 0,11841.708,11817.915,-1.3402885E-06,1.605981E-05,-0.0014207059,13869.238,13822.643,1.605981E-05,-2.0064398E-06,-0.0021268261,12040.122,11962.723,-2.6726074E-06,1.605981E-05,-0.0028329638
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/02/2020 13:03:59
+# 
+# 
+# 05/02/2020 13:09:23
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - Pa-6cm [Pa],P2 - Pd_8cm [Pa],P3 - Q-4cm [m^3 s^-1],P4 - Area-4cm [m^2],P5 - Mdot-4cm [kg s^-1],P6 - Pa-6cm [Pa],P7 - Pd-8cm [Pa],P8 - Area-4cm [m^2],P9 - Q-4cm [m^3 s^-1],P10 - Mdot-4cm [kg s^-1],P11 - Pa-6cm [Pa],P12 - Pd-8cm [Pa],P13 - Q-4cm [m^3 s^-1],P14 - Area-4cm [m^2],P15 - Mdot-4cm [kg s^-1],P16 - P-in [Pa],P17 - P-in [Pa],P18 - P-in [Pa]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18
+DP 0,11841.72,11817.927,-1.3402884E-06,1.605981E-05,-0.0014207057,13869.262,13822.667,1.605981E-05,-2.0064397E-06,-0.0021268261,12040.16,11962.763,-2.6726075E-06,1.605981E-05,-0.0028329639,11863.916,13902.73,12084.868

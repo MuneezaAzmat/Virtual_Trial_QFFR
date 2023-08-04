@@ -1,0 +1,50 @@
+# encoding: utf-8
+# 2020 R1
+SetScriptVersion(Version="20.1.164")
+Save(Overwrite=True)
+template1 = GetTemplate(TemplateName="Fluid Flow")
+system1 = template1.CreateSystem()
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system3 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+system1.DisplayText = "Q=2"
+system2.DisplayText = "Q=3"
+system3.DisplayText = "Q=4"
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+geometryComponent2 = system1.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system2,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system1)
+geometryComponent3 = system3.GetComponent(Name="Geometry")
+geometryComponent3.ReplaceWithShare(
+    TargetSystem=system3,
+    ComponentToShare=geometryComponent1,
+    SourceSystem=system2)
+meshComponent1 = system2.GetComponent(Name="Mesh")
+meshComponent2 = system1.GetComponent(Name="Mesh")
+meshComponent1.ReplaceWithShare(
+    TargetSystem=system2,
+    ComponentToShare=meshComponent2,
+    SourceSystem=system1)
+meshComponent3 = system3.GetComponent(Name="Mesh")
+meshComponent3.ReplaceWithShare(
+    TargetSystem=system3,
+    ComponentToShare=meshComponent1,
+    SourceSystem=system2)
+meshComponent2.Refresh()
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+Save(Overwrite=True)
+mesh1.Exit()
+meshComponent2.Update(AllDependencies=True)
+system1.DisplayText = "CFR=2"
+system2.DisplayText = "CFR=3"
+system3.DisplayText = "CFR=4"
+Save(Overwrite=True)

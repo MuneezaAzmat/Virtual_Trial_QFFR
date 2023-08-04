@@ -1,0 +1,121 @@
+
+Build Time: Dec  2 2019 14:15:26 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v201/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname           Core  O.S.         PID    Vendor                     
+-------------------------------------------------------------------------------
+n0*   Muneezas-Thinkpad  1/12  Windows-x64  15712  Intel(R) Core(TM) i7-9850H 
+host  Muneezas-Thinkpad        Windows-x64  11060  Intel(R) Core(TM) i7-9850H 
+
+MPI Option Selected: ibmmpi
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+Multicore SMT processors detected. Processor affinity set!
+Reading "\"| gunzip -c \\"C:\Users\MUNEE\Desktop\Virtual_Trial\GroundTruth\Models\M1_files\dp0\FFF-1\Fluent\FFF-Setup-Output.cas.gz\\"\""...
+Buffering for file scan...
+
+
+
+   90032 mixed cells, zone  2, binary.
+  201587 mixed interior faces, zone  1, binary.
+   10832 triangular wall faces, zone  5, binary.
+     144 mixed velocity-inlet faces, zone  6, binary.
+     138 mixed pressure-outlet faces, zone  7, binary.
+   36115 nodes, binary.
+36115 node flags, binary.
+
+cpp -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/main" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/addon-wrapper" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/io" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/species" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/pbns" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/numerics" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/sphysics" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/storage" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/mphase" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/bc" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/models" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/material" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/amg" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/util" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/mesh" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/udf" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/ht" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/dx" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/turbulence" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/acoustics" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/parallel" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/etc" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/ue" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/dpm" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/dbns" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/tgrid/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/PRIME/tgrid/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/cortex/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/client/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/multiport/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/../include" -I. -DUDFCONFIG_H="<udfconfig-host.h>" "C:\\Users\\MUNEE\\Desktop\\Virtual_Trial\\GroundTruth\\V_in_cfr_3.c"
+
+cpp -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/main" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/addon-wrapper" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/io" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/species" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/pbns" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/numerics" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/sphysics" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/storage" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/mphase" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/bc" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/models" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/material" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/amg" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/util" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/mesh" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/udf" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/ht" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/dx" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/turbulence" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/acoustics" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/parallel" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/etc" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/ue" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/dpm" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/src/dbns" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/tgrid/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/PRIME/tgrid/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/cortex/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/client/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/multiport/src" -I"C:\\PROGRA~1\\ANSYSI~1\\ANSYSS~1\\v201\\fluent\\fluent20.1.0/../include" -I. -DUDFCONFIG_H="<C:/Users/MUNEE/AppData/Local/Temp/udfconfig-15712-node0.h>" "C:/Users/MUNEE/AppData/Local/Temp/V_in_cfr_3.c.15712.0.c"
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet
+	inlet
+	wall
+	interior-fff_solid
+	fff_solidSetting fff_solid (mixture) ... Done.
+ Setting zone id of fff_solid to 2.
+ Setting zone id of interior-fff_solid to 1.
+ Setting zone id of wall to 5.
+ Setting zone id of inlet to 6.
+ Setting zone id of outlet to 7.
+Done.
+Setting fff_solid (mixture) ... Done.
+Setting interior-fff_solid (mixture) ... Done.
+Setting wall (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+Information: Converting parameter P-in to report definition.
+Reading "\"| gunzip -c \\"C:\Users\MUNEE\Desktop\Virtual_Trial\GroundTruth\Models\M1_files\dp0\FFF-1\Fluent\FFF-5-00268.dat.gz\\"\""...
+
+
+Parallel variables...
+Done.
+
+  iter  continuity  x-velocity  y-velocity  z-velocity     time/iter
+   268  5.9370e-06  2.2448e-06  1.7988e-06  8.9715e-06  0:00:00 1500
+   269  5.7723e-06  2.1538e-06  1.7049e-06  8.6392e-06  0:00:00 1499
+!  270 solution is converged
+   270  5.6091e-06  2.0770e-06  1.6143e-06  8.3067e-06  0:00:00 1498
+Registering Udf, ("C:\Users\MUNEE\Desktop\Virtual_Trial\GroundTruth\V_in_cfr_3.c")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\MUNEE\\AppData\\Local\\Temp\\flntgz-110602 ...
+Done.
+
+Writing data to C:\\Users\\MUNEE\\Desktop\\Virtual_Trial\\GroundTruth\\Models\\M1_files\\dp0\\FFF-1\\Fluent\\FFF.ip ...
+	x-coord
+	y-coord
+	z-coord
+	pressure
+	x-velocity
+	y-velocity
+	z-velocity
+Done.
+Writing "| gzip -2cf > FFF-6.cas.gz"...
+Writing temporary file C:\\Users\\MUNEE\\AppData\\Local\\Temp\\flntgz-110603 ...
+   90032 mixed cells, zone  2, binary.
+  201587 mixed interior faces, zone  1, binary.
+   10832 triangular wall faces, zone  5, binary.
+     144 mixed velocity-inlet faces, zone  6, binary.
+     138 mixed pressure-outlet faces, zone  7, binary.
+   36115 nodes, binary.
+   36115 node flags, binary.
+Done.
+
+Writing "| gzip -2cf > FFF-6-00270.dat.gz"...
+Writing temporary file C:\\Users\\MUNEE\\AppData\\Local\\Temp\\flntgz-110604 ...
+Done.
+
+
+Performance Timer for 2 iterations on 1 compute node
+  Average wall-clock time per iteration:              0.192 sec
+  Global reductions per iteration:                       37 ops
+  Global reductions time per iteration:               0.000 sec (0.0%)
+  Message count per iteration:                            5 messages
+  Data transfer per iteration:                        0.000 MB
+  LE solves per iteration:                                4 solves
+  LE wall-clock time per iteration:                   0.048 sec (24.7%)
+  LE global solves per iteration:                         0 solves
+  LE global wall-clock time per iteration:            0.000 sec (0.0%)
+  LE global matrix maximum size:                         0
+  AMG cycles per iteration:                           4.000 cycles
+  Relaxation sweeps per iteration:                       40 sweeps
+  Relaxation exchanges per iteration:                     0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+
+  Total wall-clock time:                              0.385 sec
+
